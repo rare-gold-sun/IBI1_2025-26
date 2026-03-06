@@ -1,5 +1,13 @@
-This is an example file for reflection in IBI1_2025-26.
+I spent several hours on this stuff and finally get some progress
+here the following are something I think meaningful, which stuck me for a while
 
-During this course, I have learnt version control, how to navigate Unix-like systems and how to write simple programs in Python.
+0. committing it doesn't upload it to cloud, you need to push
+1. name with spaces would result in too many arguments, you have to add quote
+2. to push, it is pushing a whole branch, instead of one single file
+3.
+4.
+5.
 
-I was able to edit this file to show changes in the lecture
+
+
+I might keep updating this sequence, to record my learning steps.
