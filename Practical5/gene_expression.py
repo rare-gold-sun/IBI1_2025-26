@@ -11,7 +11,7 @@ plt.bar(exlev.keys(), exlev.values())  # 绘制柱状图
 plt.xlabel('Gene')  # x轴标签
 plt.ylabel('Expression Level')  # y轴标签
 plt.title('Gene Expression Levels')  # 图表标题
-# plt.show() # 显示图表
+plt.show() # 显示图表
 
 
 

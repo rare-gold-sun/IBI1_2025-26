@@ -6,12 +6,12 @@ poda = pd.DataFrame ({ 'country' :     [ 'UK'  ,  'China' , 'Italy' , 'Brazil' ,
 
 pocha = poda['24population'] - poda['20population']
 percha = pocha / poda['20population'] * 100
-print(percha)
+print( [round(x,2) for x in percha] )
 
 
 
-pcido = reversed(sorted(pocha))
-print(pcido)
+pcido = sorted(pocha, reverse=True)
+print([round(x,2) for x in pcido])
 pochadic = dict(zip(poda['country'], pocha))
 print(max(pochadic, key=pochadic.get) + " has the largest increase")
 print(min(pochadic, key=pochadic.get) + " has the largest decrease")
@@ -19,7 +19,7 @@ print(min(pochadic, key=pochadic.get) + " has the largest decrease")
 
 
 import matplotlib.pyplot as plt
-plt.bar(poda['country'], pocha,color = ['lightcoral', 'lightskyblue', 'lightgreen', 'lightyellow', 'lightpink'])
+plt.bar(poda['country'], pocha,color = [ 'lightcoral' if x < 0 else 'lightgreen' for x in pocha])
 plt.xlabel('Country')
 plt.ylabel('Population Change (millions)')
 plt.title('Population Change from 2020 to 2024')
