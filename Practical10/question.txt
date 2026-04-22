@@ -1,0 +1,13 @@
+question: which five countries have the most steady DALY?
+
+line number: 37
+
+
+answer:  Monaco, Dominica, San Marino, Northern Mariana Islands and  Paraguay
+
+
+result discussion:
+These five countries have the smallest standard deviation of DALY, 
+indicating that their overall disease burden and population health status remained stable for a long time during 1990-2020
+They were not affected by major epidemics, wars, economic crises or drastic changes in the medical system, 
+making them a group of countries with the most stable health landscape.
