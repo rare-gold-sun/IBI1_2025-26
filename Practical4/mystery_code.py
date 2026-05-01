@@ -14,7 +14,7 @@ total_rand = 0
 progress=0
 while progress<=10:
 	progress+=1
-	n = randint(1,10)
+	n = randint(1,11)
 	total_rand+=n
 
 print(total_rand)

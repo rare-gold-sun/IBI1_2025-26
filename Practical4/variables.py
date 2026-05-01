@@ -11,3 +11,11 @@ elif Compare < 0:
 else:
 	 print("d equals to e")
 #population growth decelerating in Scotland
+
+
+
+
+X = True
+Y = False
+W = X or Y
+print(W)  #to display the truth table
