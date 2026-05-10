@@ -7,10 +7,14 @@ I didn't check it very carefully because it doesn't count as real scores
 and made many low-level mistakes which are very easy to avoid
 
 To remedy those, I went over all my previous Practicals again
-
+For P7, I completely restructured stop_codons.py and count_codons.py. I fixed FASTA parsing, kept my original regular expression logic, and ensured the code fully meets the requirements
+For P9’s spatial SIR model, I supplemented pseudocode as required, added a clear legend to the visualization
+In P10’s dalys.py, I replaced messy variable names like dada with descriptive ones, unified comments to English, and added blank lines between code blocks to improve readability
 
 You also told me some errors I have made, and I have already compensated them all.
-
+My previous commit messages were thought to be not informative, I will try to include more information
+I had missed some tasks to complete, and I have done these
+I misunderstood some task requirement and wrote completely wrong code, this is fixed later
 
 
 Best wishes,

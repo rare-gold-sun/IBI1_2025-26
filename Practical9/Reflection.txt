@@ -1,0 +1,7 @@
+This practical was fun and useful. It helped me learn how diseases spread with computer models.
+At first, the stochastic SIR model was a bit hard for me. I spent time understanding the logic and writing the code.
+But I felt happy when the models worked correctly. I liked seeing the simulation results the most.
+I found that every run gives different results, even with the same settings. This shows randomness is very important.
+I also added vaccination to the model. Higher vaccination clearly lowers infections and stops big outbreaks.
+For the spatial SIR model, I used a 100×100 grid. I could see the disease spread between nearby cells and then disappear.
+The most important thing I learned is how to turn real problems into simple probabilistic models.
