@@ -5,13 +5,13 @@ exlev['MYC'] = 11.6
 
 
 
-import matplotlib.pyplot as plt  # 
-import numpy as np               # 处理数据
-plt.bar(exlev.keys(), exlev.values())  # 绘制柱状图
-plt.xlabel('Gene')  # x轴标签
-plt.ylabel('Expression Level')  # y轴标签
-plt.title('Gene Expression Levels')  # 图表标题
-plt.show() # 显示图表
+import matplotlib.pyplot as plt   
+import numpy as np              
+plt.bar(exlev.keys(), exlev.values()) 
+plt.xlabel('Gene')  
+plt.ylabel('Expression Level')  
+plt.title('Gene Expression Levels')  
+plt.show()
 
 
 

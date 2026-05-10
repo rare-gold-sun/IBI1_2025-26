@@ -18,4 +18,9 @@ else:
 X = True
 Y = False
 W = X or Y
-print(W)  #to display the truth table
+print("Result of W = X or Y:", W)
+# COMMENT: W's truth table
+# X=True, Y=True  → W=True
+# X=True, Y=False → W=True
+# X=False, Y=True → W=True
+# X=False, Y=False → W=False
