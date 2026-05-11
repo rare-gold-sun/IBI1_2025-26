@@ -3,8 +3,7 @@ import numpy as np
 import matplotlib.pyplot as plt
 import pandas as pd
 
-
-os.chdir('/Users/Zhuanz/CODE/IBI1_2025-26/Practical10')
+os.chdir(os.path.dirname(os.path.abspath(__file__)))
 DALYS_all = pd.read_csv("dalys-rate-from-all-causes.csv")
 
 africa_last_decade = DALYS_all.iloc[0:11,2:4]
