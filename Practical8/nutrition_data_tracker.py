@@ -1,4 +1,4 @@
-class food_item:
+class FoodItem:
     def __init__(self,name,calories,protein,carbohydrates,fat):
         self.name = name
         self.calories = calories
@@ -7,18 +7,18 @@ class food_item:
         self.fat = fat
 
 
-apple = food_item("apple",60,0.3,15,0.5)
+apple = FoodItem("apple",60,0.3,15,0.5)
 
 
 def onedayrepo(foodlist):
-    tocal = sum(food.calories for food in foodlist)
-    tofa = sum(food.fat for food in foodlist)
-    topro = sum(food.protein for food in foodlist)
-    tocarb = sum(food.carbohydrates for food in foodlist)
-    repo = [f"Total calories: {tocal}",f"Total fat: {tofa}g",f"Total protein: {topro}g",f"Total carbohydrates: {tocarb}g"]  
-    if tocal > 2500:
+    total_calories = sum(food.calories for food in foodlist)
+    total_fat = sum(food.fat for food in foodlist)
+    total_protein = sum(food.protein for food in foodlist)
+    total_carbohydrates = sum(food.carbohydrates for food in foodlist)
+    repo = [f"Total calories: {total_calories}",f"Total fat: {total_fat}g",f"Total protein: {total_protein}g",f"Total carbohydrates: {total_carbohydrates}g"]  
+    if total_calories > 2500:
         repo.append("WARNING: too much CALORIES")
-    if tofa > 90:
+    if total_fat > 90:
         repo.append("WARNING: too much FAT")
 
     return "\n".join(repo)

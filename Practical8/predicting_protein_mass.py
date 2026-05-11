@@ -22,9 +22,8 @@ ALLaa = {
 }
 
 
-def prepromas():
+def prepromas(ipsq):
     """Calculate the mass of a protein based on its amino acid sequence."""
-    ipsq = input("Enter your a.a. sequence: ")
     if any(aa not in ALLaa.keys() for aa in list(ipsq)):
         return "ERROR:not a valid sequence"
     else:
@@ -35,5 +34,11 @@ def prepromas():
 
     
 
+#this is the example sequence
+example_sequence = "GASPV"
+print("Example:",prepromas(example_sequence))
 
-print(prepromas())
+
+#this is for marker to input a new sequence
+ipsq = input("Enter your a.a. sequence: ")
+print(prepromas(ipsq))
