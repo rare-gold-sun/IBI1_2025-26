@@ -1,21 +1,23 @@
 Dear Marker,
 
-I'm writing to share my responses to the formative ICA.
+I am writing to respond to the feedback on my formative ICA portfolio.
 
-Firstly, I want to repent of it.
-I didn't check it very carefully because it doesn't count as real scores
-and made many low-level mistakes which are very easy to avoid
+I apologise for my earlier carelessness. 
+I did not check my work thoroughly and made several avoidable mistakes, 
+including unclear comments, inconsistent formatting, untidy variable names, and missing requirements in early practicals.
 
-To remedy those, I went over all my previous Practicals again
-For P7, I completely restructured stop_codons.py and count_codons.py. I fixed FASTA parsing, kept my original regular expression logic, and ensured the code fully meets the requirements
-For P9’s spatial SIR model, I supplemented pseudocode as required, added a clear legend to the visualization
-In P10’s dalys.py, I replaced messy variable names like dada with descriptive ones, unified comments to English, and added blank lines between code blocks to improve readability
+I have carefully reviewed and corrected all work from Weeks 3 to 5, including:
+Improved file organisation and GitHub structure in Practical 3
+Fixed variable naming and comment clarity in Practical 4 (variables.py, infection simulation)
+Corrected logic, plot labels, and output formatting in Practical 5 (gene expression, heart rate, population growth)
 
-You also told me some errors I have made, and I have already compensated them all.
-My previous commit messages were thought to be not informative, I will try to include more information
-I had missed some tasks to complete, and I have done these
-I misunderstood some task requirement and wrote completely wrong code, this is fixed later
+I have also fully revised and completed all practicals from Weeks 7 to 10:
+In Week 7, I restructured stop_codons.py and count_codons.py, fixed FASTA parsing, kept my original regular expression logic, and ensured correct output format and clear visualisation.
+In Week 8, I standardised functions and class structure, removed input inside functions, and added required example calls.
+In Week 9, I added complete pseudocode, improved plots, added legends, and ensured the spatial SIR model shows the full spread process.
+In Week 10, I cleaned variable names, removed absolute paths, improved plot labels, and ensured the code runs anywhere without errors.
 
+All mistakes highlighted in the feedback have been fixed. My portfolio now follows consistent structure, clear naming, full comments, correct outputs, and meets all requirements.
 
 Best wishes,
-a hardworking student
+A hardworking student
